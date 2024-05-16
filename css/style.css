@@ -189,8 +189,8 @@
 }
 
 .page-header {
-    padding-top: 12rem;
-    padding-bottom: 6rem;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
     background: url(../img/plantacion-platanera-canarias.jpg) top right no-repeat;
     background-size: cover;
 }
@@ -385,7 +385,7 @@
 
 
 .img1 {
-    width: 25%;
-    height: 25%;
+    width: 20%;
+    height: 20%;
     object-fit: cover;
 }
