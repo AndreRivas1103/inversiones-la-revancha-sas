@@ -40,7 +40,7 @@
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s" >
         <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
             <div class="col-lg-6 px-5 text-start">
                 <small><i class="fa fa-map-marker-alt me-2"></i>Urabá, Antioquia</small>
@@ -58,10 +58,15 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="#inicio" class="nav-item nav-link active">Inicio</a>
-                    <a href="#infoempresa" class="nav-item nav-link">Conocer Más</a>
-                    <a href="#valoresempresariales" class="nav-item nav-link">Valores Empresariales</a>
-                    <a href="#mapaprocesos" class="nav-item nav-link">Mapa de Procesos</a>
-                    <a href="#objetivosestrategicos" class="nav-item nav-link">Objetivos Estratégicos</a>
+                <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Conocer Más</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="#infoempresa" class="dropdown-item">Información</a>
+                            <a href="#valoresempresariales" class="dropdown-item">Valores Empresariales</a>
+                            <a href="#mapaprocesos" class="dropdown-item">Mapa de Procesos</a>
+                            <a href="#objetivosestrategicos" class="dropdown-item">Objetivos Estratégicos</a>
+                        </div>
+                </div>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Proceso</a>
                         <div class="dropdown-menu m-0">
@@ -83,6 +88,13 @@
                             <a href="paginas/mision.html" class="dropdown-item">Misión</a>
                             <a href="paginas/reunionzoom.html" class="dropdown-item">Reunión en Zoom</a>
                             <a href="paginas/dofa.html" class="dropdown-item">Matriz DOFA</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Software</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="paginas/recomendaciones.html" class="dropdown-item">Recomendaciones</a>
+                            <a href="paginas/mejoropcion.html" class="dropdown-item">Mejor Opción</a>
                         </div>
                     </div>
                 </div>
@@ -126,7 +138,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <h1 class="display-5 mb-4" style="font-size: 70px; text-align: center;">Descripción de la Empresa</h1>
-                    <p class="mb-4" style="font-size: 30px; text-align: justify;">INVERSIONES LA REVANCHA S.A.S. es una sociedad comercial dedicada principalmente al cultivo de plátano. Se formalizó como una sociedad el 14 de diciembre de 2020. Desde entonces, esta empresa se ha especializado en la producción y comercialización de estas frutas, lo cual implica una serie de actividades agrícolas que van desde la preparación del terreno y la siembra, hasta la cosecha y distribución de los productos.</p>
+                    <p class="mb-4" style="font-size: 22px; text-align: justify;">INVERSIONES LA REVANCHA S.A.S. es una sociedad comercial dedicada principalmente al cultivo de plátano. Se formalizó como una sociedad el 14 de diciembre de 2020. Desde entonces, esta empresa se ha especializado en la producción y comercialización de estas frutas, lo cual implica una serie de actividades agrícolas que van desde la preparación del terreno y la siembra, hasta la cosecha y distribución de los productos.</p>
                 </div>
             </div>
         </div>
@@ -198,6 +210,20 @@
         </div>
     </div>
     <!-- Objetivos Estrategicos End-->
+    <div class="container-fluid bg-primary bg-icon mt-5 py-6">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-7 wow fadeIn" data-wow-delay="0.1s">
+                        <h1 class="display-5 text-white mb-3" style="font-size: 70px; ">Software</h1>
+
+                </div>
+                <div class="col-md-5 text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <a class="btn btn-lg btn-secondary rounded-pill py-3 px-5" href="paginas/recomendaciones.html" >Recomendaciones</a>
+                    <a class="btn btn-lg btn-secondary rounded-pill py-3 px-5" href="paginas/mejoropcion.html">Mejor Opción</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
