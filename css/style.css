@@ -6,6 +6,66 @@
     --dark: #111111;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* Secciones con imagen de fondo y overlay */
+.section-bg-overlay {
+    position: relative;
+    background: url(../img/platanitostuki.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.section-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 0;
+}
+
+.objetivos-list {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    list-style: none;
+    padding-left: 0;
+}
+
+.objetivos-list li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.objetivos-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    width: 8px;
+    height: 8px;
+    background: var(--primary);
+    border-radius: 50%;
+}
+
+/* Mejor contraste en el hero del carousel */
+.carousel-caption-overlay .container {
+    position: relative;
+    z-index: 2;
+}
+
+#header-carousel .carousel-item {
+    position: relative;
+}
+
+#header-carousel .carousel-item::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(0,0,0,0.6) 0%, transparent 70%);
+    pointer-events: none;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
